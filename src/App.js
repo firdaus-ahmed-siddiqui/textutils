@@ -72,7 +72,7 @@ function App() {
 
   return (
     <>
-      <Router basename="/firdaus-ahmed-siddiqui">
+      <Router basename="/textutils">
         <Navbar title='TextUtils' aboutText='About Us' appColor={appColor} mode={mode} toggleYellow={toggleYellow} toggleBlue={toggleBlue}  toggleGreen={toggleGreen}  toggleMode={toggleMode}/>
         <Alert alert={alert} />
         <div className='container'>
