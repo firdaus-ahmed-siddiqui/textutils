@@ -1,0 +1,11 @@
+.vistPlace{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (width <= 600px) {
+  .vistPlace{
+    display: flex;
+    flex-direction: column;
+  }
+}
