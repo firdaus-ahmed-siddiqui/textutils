@@ -85,8 +85,8 @@ function App() {
             </Route>
           </Switch>
         </div>
-        <Footer mode={mode} appColor={appColor}/>
       </Router>
+      <Footer mode={mode} appColor={appColor}/>
     </>
   );
 }
