@@ -1,2 +1,2 @@
 # textutils
- app is used to manupulate text
+ app is used to manupulate texts
