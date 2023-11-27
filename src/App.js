@@ -77,7 +77,7 @@ function App() {
         <Alert alert={alert} />
         <div className='container'>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/textutils">
               <TextForm showAlert={showAlert} mode={mode} heading="Please tell us about yourself"/> 
             </Route>
             <Route exact path="/about">
