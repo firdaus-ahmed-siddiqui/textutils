@@ -72,12 +72,12 @@ function App() {
 
   return (
     <>
-      <Router basename="/textutils">
+      <Router basename="/">
         <Navbar title='TextUtils' aboutText='About Us' appColor={appColor} mode={mode} toggleYellow={toggleYellow} toggleBlue={toggleBlue}  toggleGreen={toggleGreen}  toggleMode={toggleMode}/>
         <Alert alert={alert} />
         <div className='container'>
           <Switch>
-            <Route exact path="/textutils">
+            <Route exact path="/">
               <TextForm showAlert={showAlert} mode={mode} heading="Please tell us about yourself"/> 
             </Route>
             <Route exact path="/about">
